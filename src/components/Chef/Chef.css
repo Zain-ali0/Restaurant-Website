@@ -1,0 +1,69 @@
+.app__chef 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+
+.app__chef-info 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.app__chef-info h1 
+{
+    color: var(--color-golden);
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.app__chef-info p 
+{
+    margin: 1rem;
+}
+
+.app__chef-info .soical .s
+{
+    display: flex;
+    margin: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .app__chef
+    {
+        flex-direction: column;
+    }
+    .app__chef-info 
+    {
+        flex-direction: column;
+    }
+    .app__chef-info .soical .s
+    {
+        display: inline;
+        flex-direction: row;
+    }
+}
+
+
+@media screen and (max-width:1150px) {
+    .app__chef
+    {
+        flex-direction: column;
+    }
+    .app__chef-info 
+    {
+        flex-direction: column;
+    }
+    .app__chef-info .soical .s
+    {
+        display: inline;
+        flex-direction: row;
+    }
+}

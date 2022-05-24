@@ -1,0 +1,64 @@
+.app__header 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 4rem;
+    background: url(../../assets/headerbg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.app__header-info h1
+{
+    color: var(--color-white);
+    font-family: var(--font-base);
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+.app__header-info h1 span 
+{
+    color: var(--color-golden);
+}
+
+.app__header-info p 
+{
+    color: var(--color-white);
+    margin-top: 1rem;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+.app__header-info button 
+{
+    margin-top: 1rem;
+    padding: .5rem;
+    background: var(--color-golden);
+    border-radius: 5px;
+    color: var(--color-black);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: var(--font-base);
+    border: none;
+}
+
+
+@media screen and (max-width:768px) {
+    .app__header-info p 
+{
+
+    width: 100%;
+}
+}
+
+@media screen and (max-width:1150px) {
+    .app__header-info p 
+{
+
+    width: 100%;
+}
+}

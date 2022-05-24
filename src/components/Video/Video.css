@@ -1,0 +1,57 @@
+.app__video
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 4rem;
+    background: url(../../assets/videoimg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.app__video video 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app__video-overlay ,
+.app__video-overlay-circle 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__video-overlay
+{
+    position: absolute;
+    inset: 1;
+    padding-left: 40rem;
+}
+
+.app__video-overlay-circle
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:  1px solid var(--color-golden);
+    cursor: pointer;
+}
+
+
+@media screen  and (max-width:786px){
+    
+.app__video-overlay
+{
+    padding: 8rem;
+}
+.app__video 
+{
+    display: none;
+}
+}
